@@ -1,0 +1,50 @@
+.nav-back { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+
+}
+
+.nav-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 170px;
+
+
+}
+
+.nav-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 160px;
+}
+
+.logo {
+    padding-right: 10px;
+    height: 35px;
+    width: 35px;
+}
+
+.activeLink {
+    font-family: Poppins-medium;
+    font-size: 15px;
+    text-decoration: none;
+    padding-left: 45px;
+    color:black;
+}
+
+.title { 
+    font-family: Poppins-medium;
+    font-weight: 700;
+    font-size: 22px;
+    padding-left: 10px;
+}
+
+.store { 
+    height: 30px;
+    padding-left: 20px;
+}

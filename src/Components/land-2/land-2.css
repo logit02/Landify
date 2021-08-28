@@ -1,0 +1,50 @@
+
+.all_items { 
+    padding-top: 100px;
+}
+
+.topic, .desc {
+    text-align: center;
+    font-family: Poppins-medium;
+    font-size: 45px;
+}
+
+.desc { 
+    margin-right: 400px;
+    margin-left: 400px;
+    padding-top: 20px;
+    font-family: Poppins-light;
+    font-size: 15px;
+   
+}
+
+.items { 
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.item { 
+    margin-right: 150px;
+    margin-left: 150px;
+    padding-top: 80px;
+    text-align: center;
+    width: 400px;
+}
+
+.topics { 
+    font-family: Poppins-medium;
+    font-size: 19px;
+}
+
+.topic-desc { 
+    margin-top: 20px;
+    font-family: Poppins-light;
+    font-size: 15px;
+}
+
+.icon { 
+    margin-bottom: 15px;
+    width: 30px;
+    height: 30px;
+}

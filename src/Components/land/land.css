@@ -1,0 +1,35 @@
+.back-land { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text-part {
+    font-size: 70px;
+    font-family: Poppins-medium;
+    padding-top: 200px;
+    padding-left: 120px;
+}
+.right-part{
+    padding-top: 80px;
+    padding-right: 250px;
+}
+
+.button-start { 
+    font-size: 22px;
+    padding: 10px;
+    background-color:#8C30F5;
+    color: white;
+    border: solid #8C30F5;
+    border-radius: 10px;
+}
+
+.logos { 
+    padding-top: 50px;
+    margin-left: 160px;
+    width: 80%;
+}
+
+.iphone { 
+    height: 680px;
+}
