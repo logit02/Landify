@@ -1,0 +1,64 @@
+@media only screen and (max-width: 600px) {
+
+    *{
+        width: 600px;
+    }
+
+
+    .big-fashion { 
+        margin-top: 40px;
+        text-align: center;
+        font-family: Poppins-medium;
+        font-size: 30px;
+       
+        padding-bottom: 40px;
+    
+    }
+    
+    .small-fashion {
+        margin-left: 100px;
+        text-align: center;
+        width: 400px;
+        font-family: Poppins-light;
+        font-size: 13px;
+        padding-bottom: 30px;
+        
+    }
+
+    
+}
+
+
+@media only screen and (min-width: 600px) {
+.text { 
+    
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lights-image { 
+    width: 1300px;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+
+.big-fashion { 
+    font-family: Poppins-medium;
+    font-size: 40px;
+    width: 500px;
+    padding-bottom: 40px;
+
+}
+
+.small-fashion {
+     
+    font-family: Poppins-light;
+    font-size: 20px;
+    width: 700px;
+}
+
+}

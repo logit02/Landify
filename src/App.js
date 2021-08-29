@@ -5,6 +5,8 @@ import Land from './Components/land/land'
 import Land2 from './Components/land-2/land-2'
 import Stories from './Components/stories/stories.js'
 import Info from './Components/info/info.js'
+import Fashion from './Components/fashion/fashion.js'
+import Footer from './Components/Footer/footer.js'
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
               <Land2 />
               <Stories />
               <Info />
+              <Fashion />
+              <Footer />
 
           </div>
         
