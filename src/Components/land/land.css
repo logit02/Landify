@@ -1,3 +1,58 @@
+@media only screen and (max-width: 600px) {
+
+*{ 
+    width: 600px;
+}
+.iphone, .right-part{
+    display: none;
+}
+
+
+
+.bold-text{ 
+    font-size: 45px;
+}
+
+.button-start{
+    width: 200px;
+}
+.button-start { 
+    
+    font-size: 22px;
+    padding: 10px;
+    background-color:#8C30F5;
+    color: white;
+    border: solid #8C30F5;
+    border-radius: 10px;
+}
+
+.text-part {
+    text-align: center;
+    font-size: 70px;
+    font-family: Poppins-medium;
+    padding-top: 100px;
+  
+}
+
+.logos { 
+    padding-top: 50px;
+    margin-left: 20px;
+    width: 90%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px){
+
 .back-land { 
     display: flex;
     flex-direction: row;
@@ -32,4 +87,5 @@
 
 .iphone { 
     height: 680px;
+}
 }

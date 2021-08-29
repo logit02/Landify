@@ -1,3 +1,46 @@
+
+@media only screen and (max-width: 600px) {
+
+*{ 
+    width: 600px;
+}
+.big-text { 
+    text-align: center;
+    padding-top: 50px;
+    font-family: Poppins-medium;
+    font-size: 40px;
+}
+
+.small-text { 
+    text-align: center;
+    padding-top: 10px;
+    font-family: Poppins-light;
+}
+.icons { 
+    padding-top: 40px;
+    width: 60px;
+    
+}
+
+.element { 
+    padding-top: 30px;
+    text-align: center;
+}
+
+.big-info{ 
+    font-family: Poppins-medium;
+    font-size: 40px;
+}
+
+.small-info { 
+    padding-top: 10px;
+    font-family: Poppins-light;
+}
+
+}
+
+@media only screen and (min-width: 600px) {
+
 .wrapper {
     margin-top: 100px; 
     display: flex;
@@ -62,4 +105,6 @@
 .icons { 
     width: 30px;
     
+}
+
 }

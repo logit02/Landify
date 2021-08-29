@@ -1,3 +1,29 @@
+@media only screen and (max-width: 600px) {
+* { 
+    width: 600px;
+}
+.logo { 
+    height: 35px;
+    width: 35px;
+}
+
+.activeLink ,.store, .nav-right{
+    display: none;
+}
+
+.nav-left{
+    margin-left: 50px;
+}
+
+.title { 
+    width: 300px;
+    font-family: Poppins-medium;
+    font-weight: 700;
+    font-size: 22px;
+    padding-left: 10px;
+}
+}
+
 .nav-back { 
     display: flex;
     flex-direction: row;
@@ -7,6 +33,7 @@
 
 }
 
+
 .nav-left{
     display: flex;
     flex-direction: row;
@@ -15,6 +42,12 @@
 
 
 }
+
+@media only screen and (min-width: 600px) {
+
+
+
+
 
 .nav-right{
     display: flex;
@@ -37,14 +70,10 @@
     color:black;
 }
 
-.title { 
-    font-family: Poppins-medium;
-    font-weight: 700;
-    font-size: 22px;
-    padding-left: 10px;
-}
+
 
 .store { 
     height: 30px;
     padding-left: 20px;
+}
 }
