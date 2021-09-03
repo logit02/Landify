@@ -32,17 +32,17 @@
 @media only screen and (min-width: 600px) {
 .text { 
     
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 .lights-image { 
-    width: 1300px;
-    margin-left: 150px;
-    margin-right: 100px;
+    width: 80%;
+    margin-left: 100px;
+
 }
 
 

@@ -91,9 +91,9 @@
 @media only screen and (min-width: 600px){
 .some-staff{ 
     padding-top: 100px;
-    padding-left: 400px;
+    
     margin-top: 140px;
-    height: 90vh;
+    height: 100vh;
     background-color: #D5FAFC;
 }
 .back-stories { 

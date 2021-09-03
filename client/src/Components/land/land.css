@@ -67,7 +67,7 @@
 }
 .right-part{
     padding-top: 80px;
-    padding-right: 250px;
+    padding-right: 150px;
 }
 
 .button-start { 
@@ -86,6 +86,7 @@
 }
 
 .iphone { 
+  
     height: 680px;
 }
 }
