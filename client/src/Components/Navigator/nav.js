@@ -8,14 +8,14 @@ function Navigator(){
     return(
         <div className='nav-back'>
             <div className='nav-left'>
-                <img src={logo} alt='logo' className='logo'></img>
-                <p className='title'>Landify</p>
+                <NavLink to='/home' ><img src={logo} alt='logo' className='logo'></img></NavLink>
+                <NavLink to='/home' className='title'>Landify</NavLink>
                 <NavLink to='#' className="activeLink"> About </NavLink>
                 <NavLink to='#' className="activeLink"> Products </NavLink>
                 <NavLink to='#' className="activeLink"> Pricing </NavLink>
-                <NavLink to='#' className="activeLink"> Blog </NavLink>
                 <NavLink to='#' className="activeLink"> Jobs </NavLink>
                 <NavLink to='#' className="activeLink"> More </NavLink>
+                
 
             </div>
             <div className='nav-right'>

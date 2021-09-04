@@ -8,6 +8,7 @@ import Info from './Components/info/info.js'
 import Fashion from './Components/fashion/fashion.js'
 import Footer from './Components/Footer/footer.js'
 
+
 function App() {
   return (
     <div className="App">
@@ -27,6 +28,8 @@ function App() {
           </div>
         
         </Route>
+        
+
         <Redirect from ='/' to='/home'></Redirect>
         </Switch>
       </BrowserRouter>
